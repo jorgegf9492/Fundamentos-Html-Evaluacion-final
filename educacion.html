@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Educación</title>
+</head>
+<body>
+	<header>
+		<svg width="100" height="100">
+			<image xlink:href="images/Glyph.svg" width="100" height="100">
+		</svg>
+	</header>
+	<h1>Hoja de Vida</h1>
+	<h2>Jorge Ernesto Guerrero Flores</h2>
+	<h3>21-julio-1994, El Salvador</h3>
+	<p>
+		<a href="index.html">Inicio</a> | <a href="experiencia.html">Experiencia</a>
+	</p>
+	<h2>Educación</h2>
+	<table border="1" cellpadding="10">
+		<thead>
+			<tr>			
+			<th>Año</th>
+			<th>Institución</th>
+			<th>Lugar</th>
+			<th>¿Culminó?</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2012</td>
+				<td>Colegio Lehnsen</td>
+				<td>Guatemala</td>
+				<td>sí</td>
+			</tr>
+			<tr>
+				<td>2013</td>
+				<td>UNR</td>
+				<td>Reno, Nevada</td>
+				<td>sí</td>
+			</tr>
+		</tbody>		
+	</table>
+	<h1>Agregar Estudios</h1>
+	<form>
+		<p>
+			<label for="año">Año: </label>
+			<select name="año">
+				<option value="1">2010</option>
+				<option value="1">2011</option>
+				<option value="1">2012</option>
+				<option value="1">2013</option>
+				<option value="1">2014</option>
+				<option value="1">2015</option>
+				<option value="1">2016</option>
+				<option value="1">2017</option>
+				<option value="1">2018</option>
+				<option value="1">2019</option>
+			</select>
+		</p>
+		<p>
+			<label for="inst">Institución: </label>
+			<input type="text" name="inst" placeholder="Nombre de la Institución" required>		
+		</p>
+		<p>
+			<label for="Lugar">Lugar: </label>	
+			<textarea name="Lugar" cols="20" rows="3"></textarea>
+		</p>		
+		<p>
+			<input type="submit" value="Enviar">
+		</p>		
+	</form>
+	<footer>
+		<p><strong>Correo Electrónico:</strong> jorge_9492@hotmail.com</br><strong>Teléfono:</strong> 5308-9626</p>
+	</footer>
+</body>
+</html>
